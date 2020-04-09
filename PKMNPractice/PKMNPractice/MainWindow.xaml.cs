@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using PKMNPractice;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,7 +25,7 @@ namespace JSONPokemon
     {
         public MainWindow()
         {
-            InitializeComponent();
+             //InitializeComponent();
 
             using (HttpClient client = new HttpClient())
             {
